@@ -1,0 +1,142 @@
+/* Hero Section Styles */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 80px; /* Adjust this according to your navbar height */
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Content Section */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  color: white;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text .highlight {
+  color: #a385ff;
+}
+
+.hero-text h2 {
+  font-size: clamp(1.5rem, 4vw, 1.8rem);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.changing-text {
+  color: #a385ff;
+  font-weight: bold;
+  animation: fadeInOut 2s infinite;
+}
+
+/* Smooth text transition */
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(10px); }
+  50% { opacity: 1; transform: translateY(0px); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.hero-text p {
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 15px; /* Adds space between buttons */
+  flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
+}
+
+/* Image Section */
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 350px; /* Limits size on large screens */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+.hero-image img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-image img {
+    max-width: 250px; /* Reduce image size on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-container {
+    padding-top: 100px; /* Ensures text doesn't go behind navbar */
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .hero-image img {
+    max-width: 200px; /* Reduce image size on small screens */
+  }
+}

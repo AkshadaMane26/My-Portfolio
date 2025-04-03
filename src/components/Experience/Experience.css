@@ -1,0 +1,195 @@
+/* Avoid conflicts with other components */
+.education-experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+  background: #0b0b14; 
+}
+
+/* Common section styles */
+.education-section,
+.experience-section {
+  width: 42%;
+  max-width: 500px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #a385ff;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+/* Card styles */
+.education-card,
+.experience-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  margin: 10px 0;
+  border-left: 4px solid #a385ff;
+  box-shadow: 0px 3px 6px #fff;
+  transition: transform 0.3s ease-in-out;
+  color: #fff;
+  font-size: 14px;
+  width: 85%;
+  max-width: 450px;
+  min-height: 80px;
+  background-color: #222020;
+  position: relative;
+}
+
+.education-card:hover,
+.experience-card:hover {
+  transform: translateY(-3px);
+}
+
+/* --- FIX FOR ICON ALIGNMENT --- */
+/* Experience Header: Role + Icon (Left) | Date (Right) */
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  gap: 10px;
+}
+
+/* Role with Icon aligned */
+.experience-role {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  gap: 5px;
+  flex: 1;
+}
+
+/* Education Degree + Icon alignment */
+.education-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Navigation Icon */
+.nav-icon {
+  color: #d6c1e1;
+  font-size: 14px;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-icon:hover {
+  color: #cfccd0;
+  transform: scale(1.1);
+}
+
+/* Ensuring Date remains properly aligned */
+.experience-date {
+  font-size: 12px;
+  color: #f6f5fa;
+  display: flex;
+  gap: 5px;
+  white-space: nowrap;
+  margin-left: auto; /* Moves it to the extreme right */
+}
+
+/* Experience Subheader: Company (Left) | Location (Right) */
+.experience-subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+.experience-company {
+  font-weight: bold;
+  color: #e8e4ea;
+}
+
+.experience-location {
+  font-size: 12px;
+  color: hsl(260, 18%, 93%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Description Styling */
+.education-desc,
+.experience-desc {
+  color: #cfccd0;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+/* Icons */
+.icon {
+  color: #f8f7fb;
+  font-size: 12px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .education-experience-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-section,
+  .experience-section {
+    width: 95%;
+    max-width: 600px;
+  }
+
+  .education-card,
+  .experience-card {
+    width: 100%;
+  }
+
+  .experience-header,
+  .experience-subheader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Timeline Container - Keeps Everything in Place */
+.timeline-container {
+  position: relative;
+  padding-left: 25px;
+}
+
+/* Vertical Line */
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #a385ff;
+}
+
+/* Timeline Dots */
+.timeline-dot {
+  position: absolute;
+  left: -24px;
+  width: 10px;
+  height: 10px;
+  background-color: #f1eded;
+  border-radius: 50%;
+  border: 2px solid rgb(34, 11, 67);
+}
+
+/* Timeline Items */
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}

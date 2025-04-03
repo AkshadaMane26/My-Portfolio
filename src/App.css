@@ -1,0 +1,27 @@
+/* App.css */
+.container {
+  margin: 0 auto; /* Centers content */
+  padding: 0;
+  display: block;
+
+}
+
+
+
+.btn {
+  padding: 10px 20px;
+  border: 2px solid #a385ff;
+  border-radius: 20px;
+  color: #a385ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  min-width: 120px; /* Ensures button size consistency */
+}
+
+.btn:hover {
+  background: #a385ff;
+  color: black;
+}
+

@@ -1,0 +1,134 @@
+/* General Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0b0b14;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.logo:hover {
+  color: #a385ff;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+  color: #a385ff;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #a385ff;
+}
+
+/* Social Icons inside menu for mobile */
+.social-icons-mobile {
+  display: none;
+}
+
+.social-icons-mobile a {
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons-mobile a:hover {
+  color: #a385ff;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background: white;
+  transition: 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: #0b0b14;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+      padding: 10px 0;
+  }
+
+  .nav-links.open {
+      display: flex;
+  }
+
+  .hamburger {
+      display: flex;
+  }
+
+  /* Hide social icons from navbar on small screens */
+  .social-icons {
+      display: none;
+  }
+
+  /* Show icons inside menu */
+  .social-icons-mobile {
+      display: flex;
+      gap: 10px;
+  }
+}
