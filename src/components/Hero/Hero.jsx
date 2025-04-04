@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <video autoPlay loop muted className="bg-video">
-        <source src="/abc.mp4" type="video/mp4" />
+        <source src="abc.mp4" type="video/mp4" />
       </video>
       <div className="hero-content">
         <div className="hero-text">
@@ -32,7 +32,7 @@ const Hero = () => {
           
         </div>
         <div className="hero-image">
-          <img src="/f.png" alt="Akshada Mane" />
+          <img src="f.png" alt="Akshada Mane" />
         </div>
       </div>
     </div>

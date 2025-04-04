@@ -12,12 +12,12 @@ const About = () => {
         transition={{ duration: 1 }}
       >
         <div className="about-image">
-          <img src="/profile.png" alt="Profile" />
+          <img src="Profile.jpg" alt="Profile" />
         </div>
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-            I'm <span>Akshada Mane</span>, a passionate <b>Full Stack Web Developer</b> skilled in <b>React.js, Node.js, Python, and Machine Learning</b>.
+            I'm <span>Akshada Mane</span>, a passionate <b>Frontend Developer</b> skilled in <b>HTML , CSS , JavaScript ,React.js, Python, and Machine Learning</b>.
             I love <b>building elegant, scalable web applications</b> 🚀 and exploring new technologies to create impactful solutions.
           </p>
           <p>
