@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import {
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaGit, FaGithub, FaDatabase,
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGit, FaGithub
 } from "react-icons/fa";
 import {
   SiBootstrap, SiJquery, SiMysql, SiMongodb, SiTensorflow, SiKeras, SiJupyter, SiGooglecolab,
@@ -19,9 +19,7 @@ const skillsData = {
     { name: "HTML", icon: <FaHtml5 color="#E34F26" /> },
     { name: "CSS", icon: <FaCss3Alt color="#1572B6" /> },
     { name: "JavaScript", icon: <FaJs color="#F7DF1E" /> },
-
     { name: "jQuery", icon: <SiJquery color="#0769AD" /> }, // Added jQuery
-
     { name: "Bootstrap", icon: <SiBootstrap color="#7952B3" /> },
     { name: "React.js", icon: <FaReact color="#61DAFB" /> },
   ],
