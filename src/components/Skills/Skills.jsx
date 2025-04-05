@@ -46,7 +46,6 @@ const skillsData = {
     { name: "Git", icon: <FaGit color="#F05032" /> },
     { name: "GitHub", icon: <FaGithub color="white" /> },
     { name: "VS Code", icon: <VscVscode color="#007ACC" /> },
-    { name: "Postman", icon: <SiPostman color="#FF6C37" /> },
     { name: "Figma", icon: <SiFigma color="#F24E1E" /> },
     { name: "AWS", icon: <FaAws color="#FF9900" /> }, // Added AWS
   ],
