@@ -7,10 +7,9 @@ import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaGit, FaGithub, FaDatabase,
 } from "react-icons/fa";
 import {
-  SiNextdotjs, SiBootstrap, SiJquery, SiExpress,
-  SiDjango, SiMysql, SiPostgresql, SiMongodb, SiFirebase, SiTableau,
+  SiBootstrap, SiJquery, SiMysql, SiMongodb, 
   SiPandas, SiNumpy, SiTensorflow, SiKeras, SiJupyter, SiGooglecolab,
-  SiScikitlearn, SiPostman, SiFigma,
+  SiScikitlearn,  SiFigma,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { BsFileBarGraphFill } from "react-icons/bs";
@@ -27,24 +26,14 @@ const skillsData = {
 
     { name: "Bootstrap", icon: <SiBootstrap color="#7952B3" /> },
     { name: "React.js", icon: <FaReact color="#61DAFB" /> },
-    { name: "Next.js", icon: <SiNextdotjs color="black" /> },
   ],
   Backend: [
-    { name: "Node.js", icon: <FaNodeJs color="#83CD29" /> },
-    { name: "Express.js", icon: <SiExpress color="white" /> },
+   
     { name: "Flask", icon: <FaPython color="#3776AB" /> },
     { name: "MySQL", icon: <SiMysql color="#4479A1" /> },
-    { name: "PostgreSQL", icon: <SiPostgresql color="#336791" /> },
     { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
   ],
-  Data_Analytics: [
-    { name: "SQL", icon: <FaDatabase color="#4479A1" /> },
-    { name: "Tableau", icon: <SiTableau color="#E97627" /> },
-    { name: "Power BI", icon: <BsFileBarGraphFill color="#F2C811" /> },
-    { name: "Excel", icon: <FaDatabase color="green" /> },
-    { name: "Pandas", icon: <SiPandas color="#150458" /> },
-    { name: "NumPy", icon: <SiNumpy color="#013243" /> },
-  ],
+  
   Machine_Learning: [
     { name: "Python", icon: <FaPython color="#3776AB" /> },
     { name: "TensorFlow", icon: <SiTensorflow color="#FF6F00" /> },
