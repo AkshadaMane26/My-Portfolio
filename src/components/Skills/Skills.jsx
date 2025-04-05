@@ -7,12 +7,10 @@ import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPython, FaGit, FaGithub, FaDatabase,
 } from "react-icons/fa";
 import {
-  SiBootstrap, SiJquery, SiMysql, SiMongodb, 
-  SiPandas, SiNumpy, SiTensorflow, SiKeras, SiJupyter, SiGooglecolab,
+  SiBootstrap, SiJquery, SiMysql, SiMongodb, SiTensorflow, SiKeras, SiJupyter, SiGooglecolab,
   SiScikitlearn,  SiFigma,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-import { BsFileBarGraphFill } from "react-icons/bs";
 import { FaAws } from "react-icons/fa";
 import "./Skills.css";
 
