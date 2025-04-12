@@ -42,22 +42,6 @@ const experiences = [
     link: "https://example.com/infosys", // Replace with actual link
   },
   {
-    id: 1,
-    role: "Intern",
-    company: "VOIS for Tech",
-    date: "Oct 2024 - Nov 2024",
-    desc: "Completed a virtual internship focused on AI-driven data analytics, working with large-scale datasets and predictive modeling.",
-    link: "https://example.com/vois", // Replace with actual link
-  },
-  {
-    id: 2,
-    role: "Intern",
-    company: "TechSaksham (Microsoft & SAP Initiative)",
-    date: "Jan 2025 - Feb 2025",
-    desc: "Developed an AI-powered Health Assistant, leveraging machine learning to provide insights on health conditions.",
-    link: "https://example.com/techsaksham", // Replace with actual link
-  },
-  {
     id: 3,
     role: "Developer",
     company: "L&D, Pune",
