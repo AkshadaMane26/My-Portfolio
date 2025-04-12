@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "title": "ML Sentiment Analyzer",
+      "category": "Machine Learning",
+      "image": "/images/ml-project.png",
+      "techStack": ["Python", "BERT", "Streamlit"],
+      "liveDemo": "https://example.com/ml-demo",
+      "github": "https://github.com/akshada/ml-sentiment",
+      "details": "https://portfolio.com/ml-sentiment"
+    },
+    {
+      "id": 2,
+      "title": "PG Finder Website",
+      "category": "Web Development",
+      "image": "/images/pgfinder.png",
+      "techStack": ["React", "Node.js", "MongoDB"],
+      "liveDemo": "https://example.com/pgfinder",
+      "github": "https://github.com/akshada/pgfinder",
+      "details": "https://portfolio.com/pgfinder"
+    },
+    {
+      "id": 3,
+      "title": "AI Resume Screener",
+      "category": "AI",
+      "image": "/images/ai-resume.png",
+      "techStack": ["Python", "NLP", "Hugging Face"],
+      "liveDemo": "https://example.com/ai-resume",
+      "github": "https://github.com/akshada/ai-resume",
+      "details": "https://portfolio.com/ai-resume"
+    },
+    {
+      "id": 4,
+      "title": "Sales Insights Dashboard",
+      "category": "Data Analysis",
+      "image": "/images/data-dashboard.png",
+      "techStack": ["Power BI", "Excel", "SQL"],
+      "liveDemo": "https://example.com/sales-dashboard",
+      "github": "https://github.com/akshada/sales-insights",
+      "details": "https://portfolio.com/sales-dashboard"
+    }
+  ]
+  
