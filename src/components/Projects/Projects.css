@@ -10,21 +10,24 @@
     width: 100%;
     background-color: #0f0f1b;
     padding: 4rem 0;
+    box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+
   }
   
   .projects-container {
     padding: 0 2rem;
     max-width: 1200px;
     margin: auto;
+    
   }
   
   
   .projects-title {
-    font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
-    color: #b68df7;
     margin-bottom: 2rem;
+    font-size: 28px;
+    color: #a385ff;
   }
   
   .category-tabs {

@@ -70,7 +70,6 @@ const Skills = () => {
   className="skills-slider"
 >
 
-
         {Object.entries(skillsData).map(([category, skills]) => (
           <SwiperSlide key={category} className="skills-slide">
             <div className="skills-card">

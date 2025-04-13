@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/AkshadaMane26/My-Portfolio",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "framer-motion": "^12.4.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

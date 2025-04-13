@@ -23,7 +23,7 @@
       "id": 3,
       "title": "AI Resume Screener",
       "category": "AI",
-      "image": "/images/ai-resume.png",
+      "image": "ShoeWebsite.png",
       "techStack": ["Python", "NLP", "Hugging Face"],
       "liveDemo": "https://example.com/ai-resume",
       "github": "https://github.com/akshada/ai-resume",
