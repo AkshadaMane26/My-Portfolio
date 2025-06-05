@@ -29,7 +29,7 @@ export default function Contact() {
   return (
     <div className="contact-container" id="contact">
       <div className="contact-image">
-        <img src='contact-me.png' alt="Contact Visual" />
+        <img src='contact.png' alt="Contact Visual" />
       </div>
       <div className="contact-form">
         <h2>Contact Me</h2>
