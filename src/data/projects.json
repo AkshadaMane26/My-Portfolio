@@ -1,43 +1,136 @@
 [
-    {
-      "id": 1,
-      "title": "ML Sentiment Analyzer",
-      "category": "Machine Learning",
-      "image": "/images/ml-project.png",
-      "techStack": ["Python", "BERT", "Streamlit"],
-      "liveDemo": "https://example.com/ml-demo",
-      "github": "https://github.com/akshada/ml-sentiment",
-      "details": "https://portfolio.com/ml-sentiment"
-    },
-    {
-      "id": 2,
-      "title": "PG Finder Website",
-      "category": "Web Development",
-      "image": "/images/pgfinder.png",
-      "techStack": ["React", "Node.js", "MongoDB"],
-      "liveDemo": "https://example.com/pgfinder",
-      "github": "https://github.com/akshada/pgfinder",
-      "details": "https://portfolio.com/pgfinder"
-    },
-    {
-      "id": 3,
-      "title": "AI Resume Screener",
-      "category": "AI",
-      "image": "ShoeWebsite.png",
-      "techStack": ["Python", "NLP", "Hugging Face"],
-      "liveDemo": "https://example.com/ai-resume",
-      "github": "https://github.com/akshada/ai-resume",
-      "details": "https://portfolio.com/ai-resume"
-    },
-    {
-      "id": 4,
-      "title": "Sales Insights Dashboard",
-      "category": "Data Analysis",
-      "image": "/images/data-dashboard.png",
-      "techStack": ["Power BI", "Excel", "SQL"],
-      "liveDemo": "https://example.com/sales-dashboard",
-      "github": "https://github.com/akshada/sales-insights",
-      "details": "https://portfolio.com/sales-dashboard"
-    }
-  ]
-  
+  {
+  "id": 1,
+  "title": "PG-Connect",
+  "category": "Web Development",
+  "image": "images/pgconnect.png",
+  "techStack": [
+    "React.js",
+    "Tailwind CSS",
+    "Axios",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "bcrypt.js"
+  ],
+  "liveDemo": "",
+  "github": "https://github.com/AkshadaMane26/PG-Connect", 
+  "details": "PG-Connect is a full-stack web platform that connects PG owners and tenants with ease. Owners can register and manage properties, while users can search for accommodations based on location, amenities, and tenant preferences. It also offers roommate matching using AI-driven logic. The system features secure JWT-based authentication, responsive UI, and advanced filtering to improve user experience and efficiency in PG discovery."
+}
+,
+  {
+  "id": 2,
+  "title": "Recyclo-LinK – Smart Recycling & Collection System",
+  "category": "Web Development",
+  "image": "images/recyclolink.png",
+  "techStack": [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Email/SMS API"
+  ],
+  "liveDemo": "",
+  "github": "https://github.com/AkshadaMane26/Recyclo-LinK",
+  "details": "Recyclo-LinK is a full-stack  platform aimed at revolutionizing community waste management. It facilitates sustainable disposal practices through features like a recycling marketplace, photo-based waste uploads, smart collection scheduling, chatbot support, and multilingual accessibility. Admins can manage waste schedules and content moderation, while collectors can view, request, and track recyclable pickups. With real-time notifications and eco-friendly awareness tools, Recyclo-LinK fosters responsible waste handling in housing societies."
+}
+,
+  {
+  "id": 3,
+  "title": "ML based Student_Performance_System",
+  "category": "ML",
+  "image": "images/student-performance.png",
+  "techStack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Machine Learning",
+    "Cosine Similarity",
+    "Collaborative Filtering"
+  ],
+  "liveDemo": "",
+  "github": "https://github.com/AkshadaMane26/Student_Performance_System",
+  "details": "Student_Performance_System is a comprehensive platform designed to track and analyze student performance through metrics like grades, attendance, and behavior. It provides performance dashboards, detailed reports, and intelligent recommendations using ML algorithms. The system also includes a chatbot, career suggestion module, and book/course recommendation engine. Built with a focus on enhancing academic support, the platform applies collaborative filtering and cosine similarity for personalized educational suggestions, aiming to improve learning outcomes and career planning."
+}
+, {
+  "id": 4,
+  "title": "ChatGPT Sentiment Analysis",
+  "category": "AI",
+  "image": "images/chatgpt-sentiment.png",
+  "techStack": [
+    "Python",
+    "TensorFlow",
+    "Keras",
+    "LSTM",
+    "CNN",
+    "GloVe Embeddings",
+    "NLTK",
+    "Matplotlib",
+    "Seaborn",
+    "Jupyter Notebook"
+  ],
+  "liveDemo": "",
+  "github": "https://github.com/AkshadaMane26/chatgpt-sentiment-analysis",
+  "details": "This project performs sentiment analysis on over 219,000 tweets related to ChatGPT. It classifies each tweet as positive, negative, or neutral using deep learning models (CNN and LSTM). The pipeline involves preprocessing with tokenization, lemmatization, and word embeddings (GloVe). The models were evaluated across multiple hyperparameter trials, achieving up to 91.1% testing accuracy with LSTM. The project includes visualizations of sentiment distribution and trial comparisons. A user-friendly interface allows users to input new tweets and view predicted sentiment. The final models serve as a reliable tool for analyzing public opinion on ChatGPT."
+}
+,
+  {
+  "id": 5,
+  "title": "EquiVerse AI: Your AI-powered edge in equity analysis",
+  "category": "AI",
+  "image": "images/equiverse.png",
+  "techStack": [
+    "Streamlit",
+    "LangChain",
+    "Google Generative AI (Gemini)",
+    "FAISS",
+    "Python"
+  ],
+  "liveDemo": "",
+  "github": "https://github.com/AkshadaMane26/EquiVerseAI",
+  "details": "EquiVerse AI empowers investors, analysts, and finance enthusiasts to interact with real-time equity market news through advanced AI-driven natural language processing. Users can input up to three article URLs, ask questions about the content, and receive concise, source-linked answers. Built using Streamlit, LangChain, and Gemini 1.5 Flash, it features session history tracking, interactive UI with Lottie animations, and fast document similarity search with FAISS. EquiVerse offers real-time progress updates during ingestion and ensures transparency by linking every insight to its source."
+}
+,
+ {
+  "id": 6,
+  "title": "ShoeWebsite-FrontendProject",
+  "category": "Web Development",
+  "image": "images/ShoeWebsite.png",
+  "techStack": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "liveDemo": "",
+  "github": "https://github.com/AkshadaMane26/Shoe-Website?tab=readme-ov-file#shoe-website",
+  "details": "ShoeWebsite-FrontendProject is a modern and visually appealing shoe website frontend, designed using HTML, CSS, and JavaScript. The project features a clean, responsive layout ideal for displaying various footwear collections. It emphasizes smooth animations, user-friendly navigation, and aesthetic design principles to create an engaging shopping experience."
+}
+,
+  {
+  "id": 7,
+  "title": "Chatbot for Government Schemes",
+  "category": "AI",
+  "image": "images/chatbot (2).png",
+  "techStack": ["Python", "Django", "NLTK", "Scikit-learn", "HTML", "CSS", "JavaScript"],
+  "liveDemo": "",
+  "github": "https://github.com/AkshadaMane26/Government_Schemes_Chatbot",
+  "details": "PolicyGuide is an intelligent chatbot designed to help users navigate Indian Government Schemes related to Farmers, Education, Healthcare, and Women Empowerment. Built using Natural Language Processing (NLP) and Machine Learning, the chatbot processes user queries and returns accurate scheme information. Features include a multi-domain interface with modules for different user groups, TF-IDF vectorization, and Logistic Regression classification. The project uses Django for the web frontend and .json files to store structured scheme data from verified government sources."
+}
+,
+  {
+  "id": 8,
+  "title": "QR_Code_Generator_and_Scanner in Python",
+  "category": "Python",
+  "image": "images/qr.png",
+  "techStack": ["Python", "Flask", "HTML", "CSS", "JavaScript", "qrcode", "pyzbar"],
+  "liveDemo": "",
+  "github": "https://github.com/AkshadaMane26/QR_Code_Generator_and_Scanner",
+  "details": "A web-based application built with Flask that allows users to generate and scan QR codes with an attractive, responsive user interface. The app supports generating QR codes for text, URLs, contact information, and more, while also allowing users to scan QR codes using their device camera and view the embedded data. Users can download the generated QR codes directly from the app. The frontend is styled with custom CSS for a modern look and is fully responsive across devices."
+}
+]

@@ -49,7 +49,7 @@ const skillsData = {
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <h2>Skills</h2>
       <p>Here are some of my skills on which I have been working for the past 3 years.</p>
 
@@ -67,7 +67,7 @@ const Skills = () => {
     1024: { slidesPerView: 3 }, // Laptops
     1280: { slidesPerView: 4 }, // Large screens
   }}
-  className="skills-slider"
+  className="skills-slider" 
 >
 
         {Object.entries(skillsData).map(([category, skills]) => (

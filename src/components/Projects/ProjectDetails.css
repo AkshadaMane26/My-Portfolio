@@ -1,0 +1,53 @@
+.project-details {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  color: #fff;
+  background-color: #0f0f1b;
+}
+
+.details-image {
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;  /* keeps whole image visible, might leave blank spaces */
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+
+.project-details h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #a385ff;
+}
+
+.project-details p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.details-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #24292e;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.details-link:hover {
+  opacity: 0.9;
+}
+
+.back-link {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #a385ff;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+
+}

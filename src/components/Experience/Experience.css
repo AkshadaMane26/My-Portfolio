@@ -195,3 +195,43 @@ h2 {
   align-items: center;
   margin-bottom: 20px;
 }
+
+
+/* --- Existing styles unchanged --- */
+
+/* Add transition and fade animation for cards */
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  pointer-events: none; /* Prevent interaction when hidden */
+  height: 0; /* Collapse hidden items */
+  overflow: hidden;
+}
+
+/* Show the active item with fade-in */
+.timeline-item.active {
+  opacity: 1;
+  pointer-events: auto;
+  height: auto; /* Let it expand naturally */
+}
+
+/* Optional: Smooth slide in from bottom */
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.timeline-item.active .education-card,
+.timeline-item.active .experience-card {
+  animation: slideFadeIn 0.8s ease forwards;
+}

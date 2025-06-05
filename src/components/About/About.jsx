@@ -17,14 +17,21 @@ const About = () => {
         <div className="about-content">
           <h2>About Me</h2>
           <p>
-            I'm <span>Akshada Mane</span>, a passionate <b>Frontend Developer</b> skilled in <b>HTML , CSS , JavaScript ,React.js, Python, and Machine Learning</b>.
-            I love <b>building elegant, scalable web applications</b> 🚀 and exploring new technologies to create impactful solutions.
+            I'm <span>Akshada Mane</span>, a final-year B.Tech Computer Engineering student with a strong foundation in <b>Frontend Development</b> and a deep interest in <b>Artificial Intelligence</b> and <b>Machine Learning</b>. I specialize in technologies like <b>HTML, CSS, JavaScript, React.js, Python</b>, and have hands-on experience building responsive and user-friendly web applications.
           </p>
           <p>
-            Currently, I'm working on <b>smart waste management</b> & <b>AI-based projects</b>.
-            My goal is to develop applications that **solve real-world problems efficiently**.
+            I'm currently working on a range of <b>AI-driven projects</b>, aiming to address real-world challenges through innovative and efficient solutions. I’m passionate about creating scalable, impactful software that blends technology with purpose.
           </p>
-          <button className="about-btn">Download Resume</button>
+
+          {/* Download Resume Button */}
+          <a 
+            href="https://drive.google.com/uc?export=download&id=1yp8xMaa5htLaaKSK7G-oOEhO4r3svpDM" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            download
+          >
+            <button className="about-btn">Download Resume</button>
+          </a>
         </div>
       </motion.div>
     </section>
